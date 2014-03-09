@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Geo Location</title>
+<link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+
+<body>
+	<div class="searching">
+		<p>Searching...<span id="message"></span></p>
+	</div>
+	<div id="map"></div>
+	<div id="info">
+		<strong>Geo Information</strong>
+		<div>
+			<p>Lattitude: <span id="lat"></span></p>
+		</div>
+		<div>
+			<p>Longitude: <span id="lng"></span></p>
+		</div>
+		<div>
+			<p>Accuracy: <span id="acc"></span>M</p>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="static/geoLocation.js"></script>
+</html>
